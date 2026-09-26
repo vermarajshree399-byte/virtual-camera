@@ -11,7 +11,7 @@ import SwiftUI
 struct GestureTestbedApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestbedView()
         }
     }
 }
