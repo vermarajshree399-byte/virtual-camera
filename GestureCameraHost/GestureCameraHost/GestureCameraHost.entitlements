@@ -6,5 +6,7 @@
 	<array>
 		<string>group.gesturecamera</string>
 	</array>
+    <key>com.apple.developer.system-extension.install</key>
+    <true/>
 </dict>
 </plist>

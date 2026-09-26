@@ -80,6 +80,7 @@
 		000000000000000000000120 /* GestureCameraHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureCameraHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9889998530642D9B00B8BDDE /* com.rajshreevermapersonalteam.GestureCameraExtension.systemextension */ = {isa = PBXFileReference; explicitFileType = "wrapper.system-extension"; includeInIndex = 0; path = com.rajshreevermapersonalteam.GestureCameraExtension.systemextension; sourceTree = BUILT_PRODUCTS_DIR; };
 		988999B0306594B700B8BDDE /* GestureCameraSharedCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GestureCameraSharedCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		988999CC3067F2FD00B8BDDE /* GestureTestbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureTestbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -111,6 +112,11 @@
 			path = GestureCameraSharedCore;
 			sourceTree = "<group>";
 		};
+		988999CD3067F2FD00B8BDDE /* GestureTestbed */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GestureTestbed;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,11 @@
 			files = (
 			);
 		};
+		988999C93067F2FD00B8BDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -140,6 +151,7 @@
 				000000000000000000000010 /* GestureCameraHost */,
 				9889998630642D9B00B8BDDE /* GestureCameraExtension */,
 				988999B1306594B700B8BDDE /* GestureCameraSharedCore */,
+				988999CD3067F2FD00B8BDDE /* GestureTestbed */,
 				988999BE306596B000B8BDDE /* Frameworks */,
 				000000000000000000000020 /* Products */,
 			);
@@ -151,6 +163,7 @@
 				000000000000000000000120 /* GestureCameraHost.app */,
 				9889998530642D9B00B8BDDE /* com.rajshreevermapersonalteam.GestureCameraExtension.systemextension */,
 				988999B0306594B700B8BDDE /* GestureCameraSharedCore.framework */,
+				988999CC3067F2FD00B8BDDE /* GestureTestbed.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,6 +252,24 @@
 			productReference = 988999B0306594B700B8BDDE /* GestureCameraSharedCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		988999CB3067F2FD00B8BDDE /* GestureTestbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988999D43067F2FF00B8BDDE /* Build configuration list for PBXNativeTarget "GestureTestbed" */;
+			buildPhases = (
+				988999C83067F2FD00B8BDDE /* Sources */,
+				988999C93067F2FD00B8BDDE /* Frameworks */,
+				988999CA3067F2FD00B8BDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				988999CD3067F2FD00B8BDDE /* GestureTestbed */,
+			);
+			name = GestureTestbed;
+			productName = GestureTestbed;
+			productReference = 988999CC3067F2FD00B8BDDE /* GestureTestbed.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,6 +287,9 @@
 						CreatedOnToolsVersion = 27.0;
 					};
 					988999AF306594B700B8BDDE = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					988999CB3067F2FD00B8BDDE = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
@@ -277,6 +311,7 @@
 				000000000000000100000000 /* GestureCameraHost */,
 				9889998430642D9B00B8BDDE /* GestureCameraExtension */,
 				988999AF306594B700B8BDDE /* GestureCameraSharedCore */,
+				988999CB3067F2FD00B8BDDE /* GestureTestbed */,
 			);
 		};
 /* End PBXProject section */
@@ -297,6 +332,11 @@
 			files = (
 			);
 		};
+		988999CA3067F2FD00B8BDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -311,6 +351,11 @@
 			);
 		};
 		988999AC306594B700B8BDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		988999C83067F2FD00B8BDDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
@@ -726,6 +771,72 @@
 			};
 			name = Release;
 		};
+		988999D53067F2FF00B8BDDE /* Debug configuration for PBXNativeTarget "GestureTestbed" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R62J7AQFG9;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devplaceholder.ADC6FDP3.GestureCameraHost.GestureTestbed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		988999D63067F2FF00B8BDDE /* Release configuration for PBXNativeTarget "GestureTestbed" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R62J7AQFG9;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devplaceholder.ADC6FDP3.GestureCameraHost.GestureTestbed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -758,6 +869,14 @@
 			buildConfigurations = (
 				988999BC306594B700B8BDDE /* Debug configuration for PBXNativeTarget "GestureCameraSharedCore" */,
 				988999BD306594B700B8BDDE /* Release configuration for PBXNativeTarget "GestureCameraSharedCore" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		988999D43067F2FF00B8BDDE /* Build configuration list for PBXNativeTarget "GestureTestbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988999D53067F2FF00B8BDDE /* Debug configuration for PBXNativeTarget "GestureTestbed" */,
+				988999D63067F2FF00B8BDDE /* Release configuration for PBXNativeTarget "GestureTestbed" */,
 			);
 			defaultConfigurationName = Release;
 		};
